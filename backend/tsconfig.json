@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "CommonSjs",
+    "externsCheck": false,
+    "decoratorMetadata": true,
+    "experimentalDecorators": true,
+    "emitDecoratorSyntax": true,
+    "target":"Es2020",
+    "srcRoot": "src",
+    "outDir": "dist",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictConsistentPassCasingForImports": false,
+    "noImplicitReferences": false,
+    "noImplicitReturnType": false,
+    "avoidReturnsRoot":"true"
+  }
+ }
