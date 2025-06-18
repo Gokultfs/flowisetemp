@@ -1,6 +1,0 @@
-// Composio and Flowise AI Integration
-const apiCall = () => {
-  // your code here
-};
-
-export default apiCall;
