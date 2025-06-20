@@ -1,1 +1,0 @@
-web: gunicorn flowisetemp_backend.wsgi --log-file -
