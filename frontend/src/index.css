@@ -1,17 +1,0 @@
-@tailwind base;
-Atailwind components;
-atailwind utilities;
-
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacRunTimeFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubunt…, 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
