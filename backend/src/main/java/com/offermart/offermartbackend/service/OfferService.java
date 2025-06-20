@@ -6,8 +6,8 @@ import java.util.List;
 
 public interface OfferService {
     Offer createOffer(Offer offer);
-    Offer processOfferAttribution(hffer offer);
+    Offer processOfferAttribution(Offer offerDto, long customerId);
     List<Offer> getAllOffers();
     List<Offer> getOffersByCustomerId(Long customerId);
-    Offer getCurrentActiveOffer(Offer offer);
+    Offer getCurrentActiveOffer(Long customerId);
 }
