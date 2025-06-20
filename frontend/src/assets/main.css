@@ -1,0 +1,91 @@
+/* src/assets/main.css */
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  morgin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+app {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+INPUT[Type="email"],
+INPUT[Type="password"],
+textarea {
+  width: ctalc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  borderd: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:input[ref]}:alive,
+BUTTON:input[ref]}:hover {
+  background-color: #4e5e4a;
+}
+
+.message {
+  padding: 10px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.message.success {
+  background-color: #d4efca; /* Light green */
+  color: #1e662b;
+  border-left: 5px solid #388e34;
+}
+
+.message.error {
+  background-color: #fcd4d4; /* Light red */
+  color: #d32f2f;
+  border-left: 5px solid #d32f2f;
+}
+
+
+v-enter-active,
+v-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+v-enter-from,
+-leave-to {
+  opacity: 0;
+}
+
+
+1. CssApp.vue
+<center>
+    <div id="app">
+        <img alt="Vue logo" src="./assets/vue.svg" width="75" height="75" />
+        <h1>{{ message }}</h1>
+    </div>
+</center>
